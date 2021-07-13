@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <title>MorMamut Eğitim Kurumu</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
-
-<h2>HTML Image</h2>
-<img src="MorMamut.jpeg" alt="MorMamut Eğitim Kurumu Afiş" width="460" height="345">
-
+<picture>
+  <source srcset="MorMamut.jpeg" media="(max-width: 1024px)">
+  <source srcset="MorMamut.jpeg">
+  <img src="MorMamut.jpeg" alt="Flowers" style="width:auto;">
+</picture>
 </body>
 </html>
